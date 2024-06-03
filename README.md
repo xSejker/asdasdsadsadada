@@ -1,2 +1,12 @@
-# asdasdsadsadada
-sadadadadada
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to 66glock
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v11,v12) local v13={};for v20=1, #v11 do v6(v13,v0(v4(v1(v2(v11,v20,v20 + 1 )),v1(v2(v12,1 + (v20% #v12) ,1 + (v20% #v12) + 1 )))%256 ));end return v5(v13);end local v8=850 -(87 + 263) ;local v9=200 -(67 + 113) ;local v10=100;game:GetService(v7("\227\214\213\22\227\169\209\23\210\198","\126\177\163\187\69\134\219\167")).Stepped:Connect(function() local v14=0 + 0 ;local v15;while true do if (v14==(0 -0)) then v15= #game.Workspace:GetDescendants();if (v15>v8) then local v21=0;while true do if (v21==(0 + 0)) then print("Za dużo części w grze! Usuwanie nadmiarowych...");for v25=v8 + (3 -2) ,v15 do game.Workspace:FindFirstChildOfClass(v7("\19\204\56\209","\156\67\173\74\165")):Destroy();end break;end end end break;end end end);game:GetService(v7("\6\162\71\37\185\52\80\61\180\76","\38\84\215\41\118\220\70")).Stepped:Connect(function() local v16=952 -(802 + 150) ;local v17;while true do if (v16==(0 -0)) then v17= #game.Players:GetPlayers();if (v17>v9) then print("Za dużo graczy w grze! Kickowanie nadmiarowych...");for v24=v9 + 1 ,v17 do game.Players:GetPlayers()[1]:Kick("Serwer jest przepełniony.");end end break;end end end);game:GetService(v7("\98\3\44\33\251\66\0\43\17\251","\158\48\118\66\114")).Stepped:Connect(function() local v18=0 -0 ;local v19;while true do if (v18==0) then v19= #game.Lighting:GetChildren();if (v19>v10) then local v22=0 + 0 ;local v23;while true do if (v22==(997 -(915 + 82))) then v23=0 -0 ;while true do if (v23==(0 + 0)) then print("Za dużo świateł w grze! Usuwanie nadmiarowych...");for v26=v10 + (1 -0) ,v19 do game.Lighting:GetChildren()[1188 -(1069 + 118) ]:Destroy();end break;end end break;end end end break;end end end);
